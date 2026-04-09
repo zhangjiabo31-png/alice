@@ -1,5 +1,10 @@
-# 你的益达APP 分流规则 - alicesw.org
-# 生成时间：2026-04-09
-[Rule]
-DOMAIN-SUFFIX,alicesw.org,Proxy
-DOMAIN,alicesw.org,Proxy
+{
+  "host": "alicesw.org",
+  "name": "AliceSW",
+  "searchUrl": "https://alicesw.org/search?q=$keyWord&page=$pageIndex",
+  "method": "GET",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+  },
+  "encoding": "utf-8"
+}
