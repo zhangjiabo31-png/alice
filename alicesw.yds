@@ -1,10 +1,16 @@
 {
-  "host": "alicesw.org",
-  "name": "AliceSW",
-  "searchUrl": "https://alicesw.org/search?q=$keyWord&page=$pageIndex",
-  "method": "GET",
-  "headers": {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-  },
-  "encoding": "utf-8"
+  "version": "1.0.0",
+  "rules": [
+    {
+      "host": "alicesw.org",
+      "name": "AliceSW",
+      "searchUrl": "https://alicesw.org/search?q=$keyWord&page=$pageIndex",
+      "method": "GET",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+      },
+      "encoding": "utf-8",
+      "enabled": true
+    }
+  ]
 }
