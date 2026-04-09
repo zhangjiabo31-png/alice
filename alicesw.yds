@@ -1,0 +1,5 @@
+# 你的益达APP 分流规则 - alicesw.org
+# 生成时间：2026-04-09
+[Rule]
+DOMAIN-SUFFIX,alicesw.org,Proxy
+DOMAIN,alicesw.org,Proxy
